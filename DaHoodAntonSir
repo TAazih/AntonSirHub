@@ -1,0 +1,46 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("AntonSir Hub", "Synapse")
+
+--Main
+
+local DaHoodGuis = Window:NewTab("DaHoodGuis")
+local DaHoodGuisSection = DaHoodGuis:NewSection("DaHood")
+
+
+DaHoodGuisSection:NewButton("SpaceXHub", "no info bitch", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
+end)
+
+
+DaHoodGuisSection:NewButton("Invisible", "press x u be invisible press x again to be uninvis", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/fff/main/make-a-CW-on-oooga-booga'))()
+end)
+
+
+DaHoodGuisSection:NewButton("Da Hood Hub V3", "no info bitch", function()
+    getgenv().Toggle = "v"--Must be lowercase
+getgenv().Intro = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHubV3/main/Launch"))()
+end)
+
+
+DaHoodGuisSection:NewButton("PlutoHub", "no info bitch", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+end)
+
+
+DaHoodGuisSection:NewButton("DimagXHub", "no info bitch", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+end)
+
+
+DaHoodGuisSection:NewButton("RayX Hub", "no info bitch", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+
+local Credits = Window:NewTab("Credits")
+local Credits = Credits:NewSection("Credits")
+ 
+Credits:NewLabel("Made by AlonePVP#1734")
+Credits:NewLabel("Scripts/Hub founded by AlonePVP#1734")
